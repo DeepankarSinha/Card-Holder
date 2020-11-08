@@ -8,7 +8,11 @@ export class Logger implements ILogger {
     private logger;
 
     constructor() {
-        // Winston is a good boy!
+        /**
+         * Winston provides logger services. 
+         * For more info: https://github.com/winstonjs/winston
+         * Winston is a good boy!
+         */
         this.logger = winston.createLogger({
             level: process.env.LOG_LEVEL || 'info',
             format: winston.format.combine(
