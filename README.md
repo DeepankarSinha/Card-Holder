@@ -1,4 +1,6 @@
-## A simple application to store and fetch data for cards and card holders(customers).
+## A simple application to store and fetch data for cards and card holders(customers)
+
+This project follows controller-service-repository pattern and practices SOLID principle as close as possible.
 
 ### **Pre Requisites**
 To build the application locally you will need the following things
