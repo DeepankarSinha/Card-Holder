@@ -17,4 +17,5 @@ export interface ILogger {
      */
     error(message: string): void;
 
+    // What? Thats all you will ever need... 
 }

@@ -4,6 +4,14 @@ import { IDatabase } from '../interfaces/database/database.interface';
 
 @injectable()
 export class Database implements IDatabase{
+
+    /**
+     * I would love to use Thor but we got Loki. 
+     * LokiJs is a fast in-memory database. It follows 
+     * design patterns of MongoDb.
+     * For more info: https://github.com/techfort/LokiJS/wiki
+     */ 
+
     private db: Loki;
 
     constructor() {
